@@ -5,13 +5,10 @@ using UnityEngine;
 public class SpawnController : MonoBehaviour
 {
     [SerializeField] SpawnPoint[] _spawnPoints;
-    [SerializeField] float _spawnSpeed = 2f;
-    [SerializeField] Skeleton _skeleton;
+    [SerializeField] float _spawnSpeed = 2f;    
 
     private bool _isActive = true;
     private Coroutine _coroutine;
-    private int _minRotationAngle = 0;
-    private int _maxRotationAngle = 360;
 
     private void Start()
     {
@@ -25,12 +22,13 @@ public class SpawnController : MonoBehaviour
 
     private IEnumerator GetSkeleton()
     {
+        var wait = new WaitForSeconds(_spawnSpeed);
+
         while (_isActive)
         {
-            var wait = new WaitForSeconds(_spawnSpeed);
             SpawnPoint spawnPoint = _spawnPoints[Random.Range(0, _spawnPoints.Length)];
-            Quaternion direction = Quaternion.Euler(0, Random.Range(_minRotationAngle, _maxRotationAngle + 1), 0);
-            Instantiate(_skeleton, spawnPoint.transform.position, direction);
+
+            spawnPoint.CreateEnemy();
 
             yield return wait;
         }

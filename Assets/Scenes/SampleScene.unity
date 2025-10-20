@@ -257,6 +257,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aabacbf1475ac3d4f99e2c1432cd5447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _target: {fileID: 0}
+  <EnemyType>k__BackingField: {fileID: 4917503805298652755, guid: ac08d5673ab5a134b98e49d7c4987f5a, type: 3}
 --- !u!4 &436514653
 Transform:
   m_ObjectHideFlags: 0
@@ -301,6 +303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aabacbf1475ac3d4f99e2c1432cd5447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _target: {fileID: 0}
+  <EnemyType>k__BackingField: {fileID: 6348293980281170498, guid: 136f2a0fbc7d03d479dcaea9b53e6ea1, type: 3}
 --- !u!4 &477005764
 Transform:
   m_ObjectHideFlags: 0
@@ -350,7 +354,6 @@ MonoBehaviour:
   - {fileID: 1852421322}
   - {fileID: 477005763}
   _spawnSpeed: 2
-  _skeleton: {fileID: 8931028749149381, guid: ac08d5673ab5a134b98e49d7c4987f5a, type: 3}
 --- !u!4 &569367913
 Transform:
   m_ObjectHideFlags: 0
@@ -548,8 +551,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.00048311995, y: 0.9837847, z: -0.1793335, w: -0.0026552086}
-  m_LocalPosition: {x: 4.296728, y: 10.48101, z: 41.390106}
+  m_LocalRotation: {x: 0.048462387, y: -0.939306, z: 0.14917472, w: 0.30512705}
+  m_LocalPosition: {x: 13.889756, y: 12.037651, z: 28.723331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -584,6 +587,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aabacbf1475ac3d4f99e2c1432cd5447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _target: {fileID: 0}
+  <EnemyType>k__BackingField: {fileID: 2294144656301685354, guid: 15f986ccf958cef459fa75e9ae723ffc, type: 3}
 --- !u!4 &1852421323
 Transform:
   m_ObjectHideFlags: 0
