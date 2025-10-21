@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnController : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
-    [SerializeField] SpawnPoint[] _spawnPoints;
-    [SerializeField] float _spawnSpeed = 2f;    
+    [SerializeField] private SpawnPoint[] _spawnPoints;
+    [SerializeField] private float _spawnSpeed = 2f;
 
     private bool _isActive = true;
     private Coroutine _coroutine;

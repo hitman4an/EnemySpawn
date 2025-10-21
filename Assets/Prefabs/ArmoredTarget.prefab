@@ -1623,6 +1623,7 @@ GameObject:
   - component: {fileID: 7667793567824164330}
   - component: {fileID: 8421678196352176919}
   - component: {fileID: -2577321328631308640}
+  - component: {fileID: 1575279884653956727}
   m_Layer: 0
   m_Name: ArmoredTarget
   m_TagString: Untagged
@@ -1690,6 +1691,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1575279884653956727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999342808865664848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e342bfffccb0224ab5a8e661a57da9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _waypoints: []
+  _speed: 5
 --- !u!1 &7093386801054320092
 GameObject:
   m_ObjectHideFlags: 0

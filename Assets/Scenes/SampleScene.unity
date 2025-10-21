@@ -258,7 +258,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  <EnemyType>k__BackingField: {fileID: 4917503805298652755, guid: ac08d5673ab5a134b98e49d7c4987f5a, type: 3}
+  _enemy: {fileID: 0}
 --- !u!4 &436514653
 Transform:
   m_ObjectHideFlags: 0
@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  <EnemyType>k__BackingField: {fileID: 6348293980281170498, guid: 136f2a0fbc7d03d479dcaea9b53e6ea1, type: 3}
+  _enemy: {fileID: 0}
 --- !u!4 &477005764
 Transform:
   m_ObjectHideFlags: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 569367913}
   - component: {fileID: 569367912}
   m_Layer: 0
-  m_Name: SpawnController
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _target: {fileID: 0}
-  <EnemyType>k__BackingField: {fileID: 2294144656301685354, guid: 15f986ccf958cef459fa75e9ae723ffc, type: 3}
+  _enemy: {fileID: 0}
 --- !u!4 &1852421323
 Transform:
   m_ObjectHideFlags: 0
